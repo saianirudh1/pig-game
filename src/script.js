@@ -58,7 +58,7 @@ rollButton.addEventListener('click', function () {
   if (playing) {
     diceEl.classList.remove('hidden');
     const dice = Math.trunc(Math.random() * 6) + 1;
-    diceEl.src = `src/images/dice-${dice}.png`;
+    diceEl.src = `/images/dice-${dice}.png`;
 
     if (dice !== 1) {
       currScore += dice;
