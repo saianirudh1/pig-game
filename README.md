@@ -20,3 +20,8 @@ For example, the first player, Donald, begins a turn with a roll of 5. Donald co
 
 A visualisation of optimal play in the game of 2-player Pig
 Optimal play for 2-player Pig was computed by Todd W. Neller and visualized by Clifton G. M. Presser in 2001. At any time, the relevant decision information includes the player's score, the opponent's score, and the turn total. Such information corresponds to a 3D point in the graph's space. If this point is inside the gray solid, the player should roll. Otherwise, the player should hold.
+
+### Built using:
+* HTML
+* CSS
+* Javascript
